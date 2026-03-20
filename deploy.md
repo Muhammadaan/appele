@@ -20,3 +20,18 @@ jobs:
             cd /var/www/appele
 
             git pull origin main
+
+            composer install --no-dev --optimize-autoloader
+
+            npm install
+            npm run build
+
+   
+            sudo chown -R www-data:www-data storage bootstrap/cache
+            sudo chmod -R 775 storage bootstrap/cache
+
+            php artisan migrate --force
+
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
