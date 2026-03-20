@@ -6,7 +6,7 @@ use Illuminate\Database\Seeder;
 use App\Models\Question;
 use App\Models\Option;
 
-class EgmQuestionSampleSeeder extends Seeder
+class EgmAdultQuestionSeeder extends Seeder
 {
     public function run(): void
     {
