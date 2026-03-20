@@ -20,3 +20,4 @@ jobs:
             cd /var/www/appele
 
             git pull origin main
+            npm run build
