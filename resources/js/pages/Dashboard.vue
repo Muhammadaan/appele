@@ -2,7 +2,7 @@
     <AppLayout>
         <div class="container mx-auto p-4">
             <h1 class="text-3xl font-bold">Dashboard</h1>
-            <p class="mt-4 text-gray-600">Selamat datang.</p>
+            <p class="mt-4 text-gray-600">HAlo Edit</p>
 
             <div class="mt-6 rounded-lg border p-4">
                 <div class="text-sm text-gray-600">Sisa Token:</div>
